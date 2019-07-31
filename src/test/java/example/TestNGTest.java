@@ -12,7 +12,7 @@ public class TestNGTest {
   public void test() {
 	  driver.get("http://www.baidu.com");
 	  String title=driver.getTitle();
-	  AssertJUnit.assertTrue(title.contains("百度嗯嗯"));
+	  AssertJUnit.assertTrue(title.contains("百度一下"));
   }
   @BeforeTest
   public void beforeTest() {
